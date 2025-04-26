@@ -3,7 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>YourIntegrationPartner</title>
+    <title>Integration Services for eCommerce, ERP & PIM | YourIntegrationPartner</title>
+
+    <!-- SEO Improvements -->
+    <meta name="description" content="YourIntegrationPartner helps businesses streamline eCommerce, PIM, and ERP integrations with custom development and automation solutions. Save costs and scale faster.">
+    <meta property="og:title" content="YourIntegrationPartner - Smarter Integrations for Modern Business">
+    <meta property="og:description" content="Streamline your integrations across eCommerce, PIM, ERP. Modern frameworks built for scalability and cost-efficiency.">
+    <meta property="og:image" content="https://yourdomain.com/yourimage.png">
+    <meta property="og:url" content="https://yourdomain.com">
+    <meta name="twitter:card" content="summary_large_image">
+
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet" />
     <script src="https://unpkg.com/lucide@latest"></script>
     <script src="https://cdn.tailwindcss.com"></script>
@@ -11,7 +20,8 @@
       body { font-family: 'Inter', sans-serif; }
     </style>
   </head>
-  <body class="bg-gradient-to-br from-gray-50 to-whit text-gray-900 antialiased">
+
+  <body class="bg-gradient-to-br from-gray-50 to-white text-gray-900 antialiased">
     <header class="bg-white shadow-sm sticky top-0 z-10">
       <div class="max-w-6xl mx-auto px-4 py-5 flex justify-between items-center">
         <h1 class="text-2xl font-extrabold tracking-tight text-blue-600">YourIntegrationPartner</h1>
@@ -25,9 +35,9 @@
 
     <main class="max-w-6xl mx-auto px-4 py-24">
       <section class="text-center mb-28">
-        <h2 class="text-5xl font-extrabold leading-tight mb-4">
+        <h1 class="text-5xl font-extrabold leading-tight mb-4">
           Build Smarter. <span class="text-blue-600">Integrate Faster.</span>
-        </h2>
+        </h1>
         <p class="text-lg text-gray-600 max-w-2xl mx-auto mb-6">
           Custom development, seamless integrations, and AI automation to power your business with speed and precision.
         </p>
@@ -38,19 +48,19 @@
 
       <section id="services" class="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-28">
         <div class="p-6 bg-white border border-gray-100 rounded-2xl shadow-sm hover:shadow-md transition">
-          <h3 class="text-lg font-semibold text-blue-600 mb-2">Custom Development</h3>
+          <h2 class="text-lg font-semibold text-blue-600 mb-2">Custom Development</h2>
           <p class="text-sm text-gray-600">Tailored software solutions that align with your business needs.</p>
         </div>
         <div class="p-6 bg-white border border-gray-100 rounded-2xl shadow-sm hover:shadow-md transition">
-          <h3 class="text-lg font-semibold text-blue-600 mb-2">Integration Framework</h3>
+          <h2 class="text-lg font-semibold text-blue-600 mb-2">Integration Framework</h2>
           <p class="text-sm text-gray-600">Connect systems efficiently using modern APIs and integration platforms.</p>
         </div>
         <div class="p-6 bg-white border border-gray-100 rounded-2xl shadow-sm hover:shadow-md transition">
-          <h3 class="text-lg font-semibold text-blue-600 mb-2">AI Automations</h3>
+          <h2 class="text-lg font-semibold text-blue-600 mb-2">AI Automations</h2>
           <p class="text-sm text-gray-600">Boost productivity and reduce manual work through intelligent automation.</p>
         </div>
         <div class="p-6 bg-white border border-gray-100 rounded-2xl shadow-sm hover:shadow-md transition">
-          <h3 class="text-lg font-semibold text-blue-600 mb-2">Tech Consulting</h3>
+          <h2 class="text-lg font-semibold text-blue-600 mb-2">Tech Consulting</h2>
           <p class="text-sm text-gray-600">Strategic advice on architecture, scalability, and technology stack.</p>
         </div>
       </section>
@@ -64,10 +74,10 @@
 
       <section id="contact" class="bg-gradient-to-br from-blue-50 to-white p-10 rounded-3xl shadow-xl max-w-3xl mx-auto">
         <h2 class="text-2xl font-bold text-center mb-6 text-gray-800">Let's Talk</h2>
-        <form class="grid gap-5">
-          <input type="text" placeholder="Your Name" class="p-4 rounded-xl border border-gray-300 focus:ring-2 focus:ring-blue-500 outline-none" required />
-          <input type="email" placeholder="Your Email" class="p-4 rounded-xl border border-gray-300 focus:ring-2 focus:ring-blue-500 outline-none" required />
-          <textarea placeholder="Your Message" rows="5" class="p-4 rounded-xl border border-gray-300 focus:ring-2 focus:ring-blue-500 outline-none" required></textarea>
+        <!-- Formspree Integration -->
+        <form action="https://formspree.io/f/movdvnld" method="POST" class="grid gap-5">
+          <input type="email" name="email" placeholder="Your Email" class="p-4 rounded-xl border border-gray-300 focus:ring-2 focus:ring-blue-500 outline-none" required />
+          <textarea name="message" placeholder="Your Message" rows="5" class="p-4 rounded-xl border border-gray-300 focus:ring-2 focus:ring-blue-500 outline-none" required></textarea>
           <button type="submit" class="bg-blue-600 text-white py-3 px-6 rounded-full font-semibold hover:bg-blue-700 transition w-fit mx-auto flex items-center gap-2">
             Send Message <i data-lucide="chevron-right" class="w-4 h-4"></i>
           </button>
